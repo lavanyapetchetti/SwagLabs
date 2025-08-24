@@ -15,8 +15,8 @@ Ensure you have the following installed:
 
 ### 2. Clone the Repository
 ```sh
-git clone https://github.com/lavanyapetchetti/pwSwagLabs.git
-cd pwSwagLabs
+git clone https://github.com/lavanyapetchetti/SwagLabs.git
+cd SwagLabs
 ```
 
 ### 3. Install Dependencies
