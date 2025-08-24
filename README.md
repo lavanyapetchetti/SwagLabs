@@ -34,13 +34,26 @@ yarn playwright install
 This framework supports multiple environments via `.env` files.  
 You can create different environment files for **staging** and **production**:
 
-#### Example `.env.stg`
+Create a `.env.staging` file
+
+Use the following command in your terminal to create the file in the root directory:
+```
+touch .env.staging
+```
+Then open the file and add your user credentials and base URL:
+#### Example `.env.staging`
 ```env
 BASE_URL=https://staging.saucedemo.com/
 USERNAME=stg_user
 PASSWORD=stg_password
 ```
+Create a `.env.prod` file
 
+Use the following command in your terminal to create the file in the root directory:
+```
+touch .env.prod
+```
+Then open the file and add your user credentials and base URL:
 #### Example `.env.prod`
 ```env
 BASE_URL=https://www.saucedemo.com/
@@ -70,7 +83,7 @@ yarn test:headed
 
 ### Run Tests on prod env
 ```sh
-yarn test:prod
+yarn test:prod --headed
 ```
 
 ---
