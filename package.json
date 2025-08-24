@@ -1,0 +1,24 @@
+{
+  "name": "iconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "allure:generate": "rm -rf ./allure-report && npx allure generate ./allure-results -o ./allure-report",
+    "allure:open": "npx allure open ./allure-report",
+    "test:staging": "ENV=staging npx playwright test",
+    "test:prod": "ENV=prod npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.12.12",
+    "allure-playwright": "^3.3.3",
+    "dotenv": "^17.2.1"
+  }
+}
