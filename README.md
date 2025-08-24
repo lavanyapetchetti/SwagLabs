@@ -70,7 +70,7 @@ yarn test:headed
 
 ### Run Tests on prod env
 ```sh
-yarn test:prod --headed
+yarn test:prod
 ```
 
 ---
