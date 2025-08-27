@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.staging
+.env.prod
+
+# Playwright test outputs
+test-results/
+playwright-report/
+blob-report/
+
+# Allure results & reports
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Build outputs
+dist/
+coverage/
+
+# Playwright storage state (login/session data)
+storageState.json
